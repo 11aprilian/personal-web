@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div className="container-fluid m-1">
+        <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img src={logo} alt="" className="r" height={44} />
           </a>

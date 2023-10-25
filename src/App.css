@@ -48,15 +48,7 @@
     -webkit-animation-name: slideIn;
     animation-name: slideIn;
   }
-  .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assets/");
-    height: 550px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /* .bg-hero {
-    background-color: black;
-  } */
+
   @media screen and (max-width: 1000px) {
     .responsive-hide {
       display: none;
@@ -185,16 +177,12 @@
 
 .hero{
   height:120vh;
-  background:url("/src/assets/hero.jpeg")  
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/src/assets/hero.jpeg")  
   center / cover no-repeat;
 }
 
 .under-hero{
   margin-top:-200px;
-}
-
-.hero-layer{
-  background-color: black;
 }
 
 .btn{

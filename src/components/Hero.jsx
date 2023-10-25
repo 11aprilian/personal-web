@@ -76,7 +76,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="hero-layer">
+      <div>
         <div
           className="d-flex container-fluid hero shadow"
           lc-helper="background"
@@ -90,16 +90,13 @@ const Hero = () => {
               Abin Nizar
             </h1>
 
-            <p className="text-light">
-              <a
-                href=""
-                className="typewrite text-light text-decoration-none t-shadow"
-                data-period="2000"
+              <p
+                className="typewrite text-light t-shadow"
+                data-period="1000"
                 data-type='[ "I`am Programmer.", "I`am Web Developer.", "I Love to Develop." ]'
               >
                 <span className="wrap"></span>
-              </a>
-            </p>
+              </p>
             <button className="shadow mt-2 btn btn-lg text-light">
               Hire Me
             </button>
