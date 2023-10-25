@@ -184,7 +184,7 @@
 }
 
 .hero{
-  height:130vh;
+  height:120vh;
   background:url("/src/assets/hero.jpeg")  
   center / cover no-repeat;
 }
