@@ -183,12 +183,13 @@ const Hero = () => {
       <div className="container-fluid pb-4">
         <div class="row align-middle justify-content-center">
           <div class="col-md-6 col-lg-3 column">
-            <div class="card gr-1 bg-dark">
+            <div class="card gr-1 bg-dark">       
               <div class="txt">
                 <h1 className="fw-bolder node-text">NodeJS</h1>
               </div>
-              <div class="ico-card">
-                <BiLogoNodejs className="node-text" size={60} />
+              <div class="ico-card d-flex">
+                <BiLogoNodejs className="node-text" size={150} />
+                <p className="fw-lighter node-text m-4">Utilizing various Node.js modules and libraries</p>
               </div>
             </div>
           </div>
@@ -198,8 +199,9 @@ const Hero = () => {
               <div class="txt">
                 <h1 className="fw-bolder text-light">ExpressJS</h1>
               </div>
-              <div class="ico-card">
-                <SiExpress className="text-light" size={60} />
+              <div class="ico-card d-flex">
+                <SiExpress className="text-light" size={150} />
+                <p className="fw-lighter text-light m-4">Building and maintaining RESTful APIs</p>
               </div>
             </div>
           </div>
@@ -209,8 +211,9 @@ const Hero = () => {
               <div class="txt">
                 <h1 className="fw-bolder react-text">ReactJS</h1>
               </div>
-              <div class="ico-card">
-                <BiLogoReact className="react-text" size={60} />
+              <div class="ico-card d-flex">
+                <BiLogoReact className="react-text" size={150} />
+                <p className="fw-lighter react-text m-4">Developing and maintaining client-side applications</p>
               </div>
             </div>
           </div>
@@ -222,8 +225,9 @@ const Hero = () => {
               <div class="txt">
                 <h1 className="fw-bolder mysql-text1">My<span className="mysql-text2">SQL</span></h1>
               </div>
-              <div class="ico-card">
-                <GrMysql className="mysql-text1" size={60} />
+              <div class="ico-card d-flex">
+                <GrMysql className="mysql-text1" size={150} />
+                <p className="fw-lighter mysql-text1 m-4">Configured and maintained MySQL database</p>
               </div>
             </div>
           </div>
@@ -233,8 +237,9 @@ const Hero = () => {
               <div class="txt">
                 <h1 className="fw-bolder mongo-text">MongoDB</h1>
               </div>
-              <div class="ico-card">
-                <BiLogoMongodb className="mongo-text" size={60} />
+              <div class="ico-card d-flex">
+                <BiLogoMongodb className="mongo-text" size={150} />
+                <p className="fw-lighter mongo-text m-4">Configured and maintained NoSQL database</p>
               </div>
             </div>
           </div>
@@ -244,8 +249,9 @@ const Hero = () => {
               <div class="txt">
                 <h1 className="fw-bolder text-light">GIT</h1>
               </div>
-              <div class="ico-card">
-                <BiGitMerge className="text-light" size={60} />
+              <div class="ico-card d-flex">
+                <BiGitMerge className="text-light" size={150} />
+                <p className="fw-lighter text-light m-4">Collaborate with teams using version control software</p>
               </div>
             </div>
           </div>
