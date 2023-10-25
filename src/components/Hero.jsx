@@ -189,7 +189,7 @@ const Hero = () => {
               </div>
               <div class="ico-card d-flex">
                 <BiLogoNodejs className="node-text" size={150} />
-                <p className="fw-lighter node-text m-4">Utilizing various Node.js modules and libraries</p>
+                <p className="fw-lighter text-light m-4">Utilizing various Node.js modules and libraries</p>
               </div>
             </div>
           </div>
@@ -213,7 +213,7 @@ const Hero = () => {
               </div>
               <div class="ico-card d-flex">
                 <BiLogoReact className="react-text" size={150} />
-                <p className="fw-lighter react-text m-4">Developing and maintaining client-side applications</p>
+                <p className="fw-lighter text-light m-4">Developing and maintaining client-side applications</p>
               </div>
             </div>
           </div>
@@ -227,7 +227,7 @@ const Hero = () => {
               </div>
               <div class="ico-card d-flex">
                 <GrMysql className="mysql-text1" size={150} />
-                <p className="fw-lighter mysql-text1 m-4">Configured and maintained MySQL database</p>
+                <p className="fw-lighter text-light m-4">Configured and maintained MySQL database</p>
               </div>
             </div>
           </div>
@@ -239,7 +239,7 @@ const Hero = () => {
               </div>
               <div class="ico-card d-flex">
                 <BiLogoMongodb className="mongo-text" size={150} />
-                <p className="fw-lighter mongo-text m-4">Configured and maintained NoSQL database</p>
+                <p className="fw-lighter text-light m-4">Configured and maintained NoSQL database</p>
               </div>
             </div>
           </div>
