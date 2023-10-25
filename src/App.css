@@ -49,7 +49,7 @@
     animation-name: slideIn;
   }
   .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assets/hero.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assets/");
     height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +185,7 @@
 
 .hero{
   height:130vh;
-  background:url("./src/assets/hero.jpeg")  
+  background:url("/src/assets/hero.jpeg")  
   center / cover no-repeat;
 }
 
