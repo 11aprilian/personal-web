@@ -6,8 +6,10 @@ import {
   AiOutlineProfile,
   AiOutlinePhone,
 } from "react-icons/ai";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
+
   return (
     <div>
       <nav className="navbar navbar-expand-sm bg-blur fixed-top navbar-dark pt-1">
@@ -38,22 +40,40 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item me-2">
-                <a href="#" className="nav-link">
+                <ScrollLink
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={200}
+                  className="nav-link"
+                >
                   <AiOutlineUser size={22} className="me-2" />
                   About Me
-                </a>
+                </ScrollLink>
               </li>
               <li className="nav-item me-2">
-                <a href="#" className="nav-link">
+                <ScrollLink
+                  to="resume"
+                  spy={true}
+                  smooth={true}
+                  duration={200}
+                  className="nav-link"
+                >
                   <AiOutlineProfile size={22} className="me-2" />
                   Resume
-                </a>
+                </ScrollLink>
               </li>
               <li className="nav-item me-2">
-                <a href="#" className="nav-link">
+                <ScrollLink
+                  to="contact" // ID elemen target di App.jsx
+                  spy={true}
+                  smooth={true}
+                  duration={200}
+                  className="nav-link"
+                >
                   <AiOutlinePhone size={22} className="me-2" />
                   Contact
-                </a>
+                </ScrollLink>
               </li>
             </ul>
           </div>

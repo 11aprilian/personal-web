@@ -1,7 +1,9 @@
 import React from "react";
 import profile from "../assets/contact.png";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
+import logo from "../assets/logo.png";
+import { BiLogoReact, BiLogoWhatsapp, BiMailSend } from "react-icons/bi";
+import {  GiCentaurHeart } from "react-icons/gi";
+import { AiOutlineMail, } from "react-icons/ai";
 
 const Hero = () => {
   var TxtType = function (el, toRotate, period) {
@@ -70,26 +72,26 @@ const Hero = () => {
           <div className="col-md-6">
             <div className="lc-block ">
               <div>
-                <p className="display-3 text-light ms-3 ">
-                Let's talk about everything
+                <p className="display-3 text-light ms-3 mt-5">
+                Let's talk about everything!
                 </p>
                 <p className="small text-light ms-3">
-                Let's talk about programming ask some questions about myself by contacting the email or whatsapp listed below.
+                Let's talk about programming or ask some questions about myself by contacting the email or whatsapp listed below.
                 You can also offer work as a freelance or full time as an employee in your company.
                 </p>
               </div>
 
               <div>
               <ul className="list-bullets">
-              <li className="mb-2 text-light">Email : ihzaaprilian@gmail.com</li>
-              <li className="mb-2 text-light">Whatsapp : +62 8123 8280 572</li>
+              <li className="mb-2 special-text list-unstyled"><BiMailSend size={36}/>  <a className="text-decoration-none special-text" href="mailto:ihzaaprilian@gmail.com"> ihzaaprilian@gmail.com</a></li>
+              <li className="mb-2 special-text list-unstyled"><BiLogoWhatsapp size={36}/><a className="text-decoration-none special-text" href="https://wa.me/+6281238280572"> +62 8123 8280 572</a></li>
             </ul>
               </div>
             </div>
           </div>
 
-          <div className="col-md-4 text-center align-self-center">
-            <div className="lc-block  border-2 ">
+          <div className="col-md-6 text-center align-self-center">
+            <div className="lc-block border-2 ">
               <div className="mb-4">
                 <img src={profile} width={400}  className="border-bottom" alt="" />
               </div>
@@ -106,8 +108,17 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="">
-            <p className="text-light">bang udah bang</p>
+        <div className="d-flex justify-content-center">
+            <div><a className="navbar-brand m-2 ms-4" href="/">
+            <img src={logo} alt="" className="r" height={58} />
+          </a></div>
+            <div className="mt-3 border-start ps-3"><small className="text-light">Made With </small>
+            <BiLogoReact size={40} className="react-text"/>
+            <GiCentaurHeart size={35} className="react-text"/>
+            </div>  
+        </div>
+        <div className="d-flex justify-content-center mt-3">
+            <small className="text-light">Copyright © 2023. Aprilian Ihza Abin Nizar</small>
         </div>
       </div>
     </div>

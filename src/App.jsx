@@ -1,21 +1,32 @@
 import { useState } from 'react'
 import './App.css'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Resume from './components/Resume'
-import Contact from './components/Contact'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { Element } from "react-scroll"; // Import Element from react-scroll
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
-
   return (
-    <div className='bg-dark'>
-      <Navbar/>
-      <div className='pt-4 pb-5'>jk</div>
-      <Hero/>
-      <Resume/>
-      <Contact/>
-    </div>
-  )
+    <BrowserRouter>
+      <div className="bg-dark">
+        <Navbar />
+        <div className="pt-4 pb-5">jk</div>
+          <Element name="about"> 
+            <Hero/>
+          </Element>
+          <Element name="resume"> 
+            <Resume />
+          </Element>
+          <Element name="contact"> 
+            <Contact />
+          </Element>
+
+      </div>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

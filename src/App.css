@@ -239,7 +239,7 @@ body {
 }
 
 .bg-contact{
-  background-color: #2B2B2B;
+  background-color: #202020;
 }
 
 .btn {
@@ -322,3 +322,9 @@ body {
 .mongo-bg {
   background-color: #4db33d;
 }
+
+a:hover {
+  color: #C1C1C1;
+}
+
+

@@ -29,7 +29,11 @@ const Resume = () => {
                 Developer
               </li>
               <li className="mb-2">
-                Build fullstack website using ExpressJS, ReactJS, and MySQL
+                Build fullstack website using ExpressJS,{" "}
+                <span className="react-text">ReactJS</span>,{" "}
+                <span className="mysql-text1">My</span>
+                <span className="mysql-text2">SQL</span> and{" "} 
+                <span className="mongo-text">MongoDB</span>
               </li>
             </ul>
           </div>
@@ -44,11 +48,10 @@ const Resume = () => {
             </p>
             <ul className="list-bullets">
               <li className="mb-2">Learn about basic programming</li>
+              <li className="mb-2">Learn about algorithm and data structure</li>
               <li className="mb-2">
-                Learn about algorithm and data structure
-              </li>
-              <li className="mb-2">
-                Learn about relational database and build simple website at internship practice
+                Learn about relational database and build simple website at
+                internship practice
               </li>
             </ul>
           </div>
