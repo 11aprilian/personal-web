@@ -238,6 +238,10 @@ body {
   margin-top: -200px;
 }
 
+.bg-contact{
+  background-color: #363636;
+}
+
 .btn {
   background-color: #feb200;
 }
@@ -313,4 +317,8 @@ body {
 }
 .mongo-text {
   color: #4db33d;
+}
+
+.mongo-bg {
+  background-color: #4db33d;
 }

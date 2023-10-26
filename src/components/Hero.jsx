@@ -4,7 +4,7 @@ import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
   AiOutlineGithub,
-  AiOutlineWhatsApp,
+  AiFillFilePdf
 } from "react-icons/ai";
 import {
   BiLogoNodejs,
@@ -36,7 +36,7 @@ const Hero = () => {
       this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+    this.el.innerHTML = '<span className="wrap">' + this.txt + "</span>";
 
     var that = this;
     var delta = 200 - Math.random() * 100;
@@ -97,8 +97,8 @@ const Hero = () => {
               >
                 <span className="wrap"></span>
               </p>
-            <button className="shadow mt-2 btn btn-lg text-light">
-              Hire Me
+            <button className="shadow px-4 mt-2 btn btn-lg text-light">
+              <small>Hire Me</small>
             </button>
           </div>
         </div>
@@ -116,7 +116,7 @@ const Hero = () => {
           <div className="col-md-8">
             <div className="lc-block ">
               <div>
-                <p className="display-4 ms-3 t-shadow">
+                <p className="display-4 ms-3 ">
                   Think different and create a wonderful kind of digital things!
                 </p>
               </div>
@@ -124,22 +124,22 @@ const Hero = () => {
               <div>
                 <ul className="list-group list-group-horizontal">
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="https://instagram.com/11aprilian" className="text-dark">
+                    <a href="https://instagram.com/11aprilian" className="text-secondary">
                       <AiOutlineInstagram size={40} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="https://linkedin.com/in/aprilian-ihza" className="text-dark">
+                    <a href="https://linkedin.com/in/aprilian-ihza" className="text-secondary">
                       <AiOutlineLinkedin size={40} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="https://github.com/11aprilian" className="text-dark">
+                    <a href="https://github.com/11aprilian" className="text-secondary">
                       <AiOutlineGithub size={40} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <button className="btn text-light t-shadow">Download CV</button>
+                    <button className="btn text-light px-3 shadow t-shadow"><AiFillFilePdf className="mb-1"/><small> Download CV</small></button>
                   </li>
                 </ul>
               </div>
@@ -176,37 +176,37 @@ const Hero = () => {
       </div>
 
       <div className="container-fluid pb-4">
-        <div class="row align-middle justify-content-center">
-          <div class="col-md-6 col-lg-3 column">
-            <div class="card gr-1 bg-dark">       
-              <div class="txt">
+        <div className="row align-middle justify-content-center">
+          <div className="col-md-6 col-lg-3 column">
+            <div className="card gr-1 bg-dark">       
+              <div className="txt">
                 <h1 className="fw-bolder node-text">NodeJS</h1>
               </div>
-              <div class="ico-card d-flex">
+              <div className="ico-card d-flex">
                 <BiLogoNodejs className="node-text" size={150} />
                 <p className="fw-lighter text-light m-4">Utilizing various Node.js modules and libraries</p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 column">
-            <div class="card gr-1 bg-dark">
-              <div class="txt">
+          <div className="col-md-6 col-lg-3 column">
+            <div className="card gr-1 bg-dark">
+              <div className="txt">
                 <h1 className="fw-bolder text-light">ExpressJS</h1>
               </div>
-              <div class="ico-card d-flex">
+              <div className="ico-card d-flex">
                 <SiExpress className="text-light" size={150} />
                 <p className="fw-lighter text-light m-4">Building and maintaining RESTful APIs</p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 column">
-            <div class="card gr-1 bg-dark">
-              <div class="txt">
+          <div className="col-md-6 col-lg-3 column">
+            <div className="card gr-1 bg-dark">
+              <div className="txt">
                 <h1 className="fw-bolder react-text">ReactJS</h1>
               </div>
-              <div class="ico-card d-flex">
+              <div className="ico-card d-flex">
                 <BiLogoReact className="react-text" size={150} />
                 <p className="fw-lighter text-light m-4">Developing and maintaining client-side applications</p>
               </div>
@@ -214,37 +214,37 @@ const Hero = () => {
           </div>
         </div>
 
-        <div class="row align-middle justify-content-center">
-          <div class="col-md-6 col-lg-3 column">
-            <div class="card gr-1 bg-dark">
-              <div class="txt">
+        <div className="row align-middle justify-content-center">
+          <div className="col-md-6 col-lg-3 column">
+            <div className="card gr-1 bg-dark">
+              <div className="txt">
                 <h1 className="fw-bolder mysql-text1">My<span className="mysql-text2">SQL</span></h1>
               </div>
-              <div class="ico-card d-flex">
+              <div className="ico-card d-flex">
                 <GrMysql className="mysql-text1" size={150} />
                 <p className="fw-lighter text-light m-4">Configured and maintained MySQL database</p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 column">
-            <div class="card gr-1 bg-dark">
-              <div class="txt">
+          <div className="col-md-6 col-lg-3 column">
+            <div className="card gr-1 bg-dark">
+              <div className="txt">
                 <h1 className="fw-bolder mongo-text">MongoDB</h1>
               </div>
-              <div class="ico-card d-flex">
+              <div className="ico-card d-flex">
                 <BiLogoMongodb className="mongo-text" size={150} />
                 <p className="fw-lighter text-light m-4">Configured and maintained NoSQL database</p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 column">
-            <div class="card gr-1 bg-dark">
-              <div class="txt">
+          <div className="col-md-6 col-lg-3 column">
+            <div className="card gr-1 bg-dark">
+              <div className="txt">
                 <h1 className="fw-bolder text-light">GIT</h1>
               </div>
-              <div class="ico-card d-flex">
+              <div className="ico-card d-flex">
                 <BiGitMerge className="text-light" size={150} />
                 <p className="fw-lighter text-light m-4">Collaborate with teams using version control software</p>
               </div>
