@@ -65,8 +65,8 @@ const Hero = () => {
   };
 
   return (
-    <div className="">
-      <div className="container-fluid p-5 bg-contact mt-4">
+    <div className="bg-image-contact">
+      <div className="container-fluid p-5 bg-contact ">
         <div className="row">
           
           <div className="col-md-6">

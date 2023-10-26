@@ -238,10 +238,14 @@ body {
 }
 
 .bg-contact {
-  background: rgba(255, 255, 255, 0.11);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(11.8px);
-  -webkit-backdrop-filter: blur(11.8px);
+  background: rgba(15, 15, 15 , 0.0);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+.bg-image-contact {
+
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/src/assets/hero.jpeg") center / cover no-repeat;
 }
 
 .btn {
@@ -281,7 +285,6 @@ body {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.8px);
   -webkit-backdrop-filter: blur(11.8px);
-
   min-height: 100px;
   margin: 0;
   padding: 1.7rem 1.2rem;
@@ -333,3 +336,4 @@ body {
 a:hover {
   color: #c1c1c1;
 }
+

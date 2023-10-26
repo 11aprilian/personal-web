@@ -125,17 +125,17 @@ const Hero = () => {
                 <ul className="list-group list-group-horizontal">
                   <li className="list-group-item bg-transparent border-0">
                     <a href="https://instagram.com/11aprilian" className="text-light">
-                      <AiOutlineInstagram size={40} />
+                      <AiOutlineInstagram size={32} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
                     <a href="https://linkedin.com/in/aprilian-ihza" className="text-light">
-                      <AiOutlineLinkedin size={40} />
+                      <AiOutlineLinkedin size={32} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
                     <a href="https://github.com/11aprilian" className="text-light">
-                      <AiOutlineGithub size={38} />
+                      <AiOutlineGithub size={30} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
@@ -166,8 +166,8 @@ const Hero = () => {
       <div className="container bg-dark px-5 pb-5 bg-light mt-5">
         <div className="row">
           <div className="col-md-9 offset-md-1">
-            <div className="lc-block mt-5">
-              <h1 className="fw-bold display-4 text-light">
+            <div className="lc-block mt-5 d-flex justify-content-center">
+              <h1 className="fw-bold display-4 text-light border-bottom">
                 Specialized <span className="special-text">Skills</span>
               </h1>
             </div>
