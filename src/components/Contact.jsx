@@ -91,7 +91,7 @@ const Hero = () => {
           <div className="col-md-4 text-center align-self-center">
             <div className="lc-block  border-2 ">
               <div className="mb-4">
-                <img src={profile} width={500}  className="border-bottom" alt="" />
+                <img src={profile} width={400}  className="border-bottom" alt="" />
               </div>
             </div>
           </div>
