@@ -8,6 +8,7 @@ function App() {
   return (
     <div className='bg-dark'>
       <Navbar/>
+      <div className='pt-4 pb-5'>jk</div>
       <Hero/>
     </div>
   )

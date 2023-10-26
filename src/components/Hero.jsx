@@ -75,7 +75,7 @@ const Hero = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <div>
         <div
           className="d-flex container-fluid hero shadow"
@@ -104,7 +104,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container p-5 bg-light under-hero shadow">
+      <div className="container p-5 gradient-custom under-hero shadow">
         <div className="row">
           <div className="col-md-4 text-center align-self-center">
             <div className="lc-block border-end border-2 ">
@@ -124,17 +124,17 @@ const Hero = () => {
               <div>
                 <ul className="list-group list-group-horizontal">
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="" className="text-dark">
+                    <a href="https://instagram.com/11aprilian" className="text-dark">
                       <AiOutlineInstagram size={40} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="" className="text-dark">
+                    <a href="https://linkedin.com/in/aprilian-ihza" className="text-dark">
                       <AiOutlineLinkedin size={40} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="" className="text-dark">
+                    <a href="https://github.com/11aprilian" className="text-dark">
                       <AiOutlineGithub size={40} />
                     </a>
                   </li>
@@ -147,16 +147,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="">
           <div className="col-md-9 offset-md-1">
             <div className="lc-block mt-4">
               <div editable="rich">
                 <p className="lead text-secondary">
-                  I'm a software engineer who will always improve my skills,
-                  especially on the web programming. I'm an enthusiastic, highly
-                  motivated, and fast learner individual. I also believe that if
-                  I'm given a job with a deadline, I'll finish it before the
-                  deadline. The world is progressing, so we must progress faster
+                  I'm Aprilian Ihza Abin Nizar, web programmer from East Java, Indonesia.
+                  A web programmer who has a high passion for learning with a team.
+                  The world is progressing, so we must progress faster
                   than the world!
                 </p>
               </div>
@@ -165,11 +163,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container bg-dark px-5 pb-5 bg-light">
+      <div className="container bg-dark px-5 pb-5 bg-light mt-5">
         <div className="row">
           <div className="col-md-9 offset-md-1">
             <div className="lc-block mt-5">
-              <h1 className="fw-bold display-5 text-light ">
+              <h1 className="fw-bold display-4 text-light">
                 Specialized <span className="special-text">Skills</span>
               </h1>
             </div>

@@ -10,10 +10,10 @@ import {
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div className="container-fluid m-1">
-          <a className="navbar-brand" href="/">
-            <img src={logo} alt="" className="r" height={44} />
+      <nav className="navbar navbar-expand-sm bg-blur fixed-top navbar-dark pt-1">
+        <div className="container-fluid ">
+          <a className="navbar-brand m-2" href="/">
+            <img src={logo} alt="" className="r" height={58} />
           </a>
           <button
             className="navbar-toggler"
