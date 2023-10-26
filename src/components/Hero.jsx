@@ -116,7 +116,7 @@ const Hero = () => {
           <div className="col-md-8">
             <div className="lc-block ">
               <div>
-                <p className="display-4 ms-3 ">
+                <p className="display-4 ms-3 text-light">
                   Think different and create a wonderful kind of digital things!
                 </p>
               </div>
@@ -124,18 +124,18 @@ const Hero = () => {
               <div>
                 <ul className="list-group list-group-horizontal">
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="https://instagram.com/11aprilian" className="text-secondary">
+                    <a href="https://instagram.com/11aprilian" className="text-light">
                       <AiOutlineInstagram size={40} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="https://linkedin.com/in/aprilian-ihza" className="text-secondary">
+                    <a href="https://linkedin.com/in/aprilian-ihza" className="text-light">
                       <AiOutlineLinkedin size={40} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <a href="https://github.com/11aprilian" className="text-secondary">
-                      <AiOutlineGithub size={40} />
+                    <a href="https://github.com/11aprilian" className="text-light">
+                      <AiOutlineGithub size={38} />
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
@@ -151,7 +151,7 @@ const Hero = () => {
           <div className="col-md-9 offset-md-1">
             <div className="lc-block mt-4">
               <div editable="rich">
-                <p className="lead text-secondary">
+                <p className=" text-light">
                   I'm Aprilian Ihza Abin Nizar, web programmer from East Java, Indonesia.
                   A web programmer who has a high passion for learning with a team.
                   The world is progressing, so we must progress faster
@@ -178,7 +178,7 @@ const Hero = () => {
       <div className="container-fluid pb-4">
         <div className="row align-middle justify-content-center">
           <div className="col-md-6 col-lg-3 column">
-            <div className="card gr-1 bg-dark">       
+            <div className="card gr-1 ">       
               <div className="txt">
                 <h1 className="fw-bolder node-text">NodeJS</h1>
               </div>
@@ -190,7 +190,7 @@ const Hero = () => {
           </div>
 
           <div className="col-md-6 col-lg-3 column">
-            <div className="card gr-1 bg-dark">
+            <div className="card gr-1 ">
               <div className="txt">
                 <h1 className="fw-bolder text-light">ExpressJS</h1>
               </div>
@@ -202,7 +202,7 @@ const Hero = () => {
           </div>
 
           <div className="col-md-6 col-lg-3 column">
-            <div className="card gr-1 bg-dark">
+            <div className="card gr-1 ">
               <div className="txt">
                 <h1 className="fw-bolder react-text">ReactJS</h1>
               </div>
@@ -216,7 +216,7 @@ const Hero = () => {
 
         <div className="row align-middle justify-content-center">
           <div className="col-md-6 col-lg-3 column">
-            <div className="card gr-1 bg-dark">
+            <div className="card gr-1 ">
               <div className="txt">
                 <h1 className="fw-bolder mysql-text1">My<span className="mysql-text2">SQL</span></h1>
               </div>
@@ -228,7 +228,7 @@ const Hero = () => {
           </div>
 
           <div className="col-md-6 col-lg-3 column">
-            <div className="card gr-1 bg-dark">
+            <div className="card gr-1 ">
               <div className="txt">
                 <h1 className="fw-bolder mongo-text">MongoDB</h1>
               </div>
@@ -240,7 +240,7 @@ const Hero = () => {
           </div>
 
           <div className="col-md-6 col-lg-3 column">
-            <div className="card gr-1 bg-dark">
+            <div className="card gr-1 ">
               <div className="txt">
                 <h1 className="fw-bolder text-light">GIT</h1>
               </div>
