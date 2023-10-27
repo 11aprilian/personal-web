@@ -97,9 +97,7 @@ const Hero = () => {
               >
                 <span className="wrap"></span>
               </p>
-            <button className="shadow px-4 mt-2 btn btn-lg text-light">
-              <small>Hire Me</small>
-            </button>
+
           </div>
         </div>
       </div>

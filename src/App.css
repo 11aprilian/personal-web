@@ -228,10 +228,14 @@ body {
   transition: 0.2s;
 }
 
+.blacked{
+  background-color: #1A0323;
+}
+
 .hero {
   height: 120vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/src/assets/hero.jpeg") center / cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url("/src/assets/hero.jpg") center / cover no-repeat;
 }
 
 .under-hero {
@@ -243,6 +247,7 @@ body {
   backdrop-filter: blur(15px) brightness(40%);
   -webkit-backdrop-filter: blur(15px);
 }
+
 .bg-image-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("/src/assets/hero.jpeg") center / cover no-repeat;
@@ -360,6 +365,7 @@ a:focus {
 
 .project-card-2 {
     max-width: 400px;
+    border-radius: 4px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     background-position: center;
     overflow: hidden;

@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="bg-dark">
         <Navbar />
-        <div className="pt-4 pb-5">jk</div>
+        <div className="pt-4 blacked pb-5">jk</div>
           <Element name="about"> 
             <Hero/>
           </Element>
