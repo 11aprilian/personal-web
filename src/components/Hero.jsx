@@ -168,10 +168,10 @@ const Hero = () => {
           <div className="col-md-9 offset-md-1">
             <div className="lc-block mt-5 d-flex">
               <h1 className="fw-bold display-4 text-light border-bottom border-5">
-                Specialized <span className="special-text">Skills</span>
+                Specialized Skills
               </h1>
             </div>
-            <h5 className="text-light fw-lighter">I mastered programming languages ​​and some stack</h5>
+            <h5 className="text-light fw-lighter special-text">I mastered programming languages ​​and some stack</h5>
           </div>
         </div>
       </div>

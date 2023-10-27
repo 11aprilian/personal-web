@@ -15,11 +15,10 @@ const Resume = () => {
           <div className="col-md-9 offset-md-1">
             <div className="lc-block d-flex ">
               <h1 className="fw-bold display-4 text-light border-bottom border-5">
-                <span className="special-text">Educ</span>
-                ation
+                Education
               </h1>
             </div>
-            <h5 className="text-light fw-lighter">
+            <h5 className="text-light fw-lighter special-text">
               a little summary of my study journey
             </h5>
           </div>
@@ -78,10 +77,10 @@ const Resume = () => {
             <div className="col-md-9 offset-md-1">
               <div className="lc-block d-flex">
                 <h1 className="fw-bold display-4 text-light border-bottom border-5">
-                  Pro<span className="special-text">ject</span>
+                  Project
                 </h1>
               </div>
-              <h5 className="text-light fw-lighter">look what I've built</h5>
+              <h5 className="text-light fw-lighter special-text">look what I've built</h5>
             </div>
           </div>
         </div>
@@ -90,15 +89,15 @@ const Resume = () => {
           <div class="row">
 
             <div class="col-md-4 mb-5">
-              <div class="profile-card-2">
+              <div class="project-card-2">
                 <img src={project1} height={400} />
               </div>
-              <div className="container-fluid  mt-4">
-                <h2 class="profile-name text-light fw-bold">
+              <div className="container-fluid mt-4">
+                <h2 className=" text-light fw-bold">
                   TRAVEL RESERVATION WEBSITE
                 </h2>
-                <div class="profile-username special-text">Fullstack</div>
-                <div class="stack-icons">
+                <div className="small special-text">Fullstack</div>
+                <div>
                   <SiExpress className="text-light" />
                   <BiLogoReact className="react-text" />
                   <BiLogoNodejs className="node-text" />
@@ -121,14 +120,14 @@ const Resume = () => {
             </div>
 
             <div class="col-md-4 mb-5">
-              <div class="profile-card-2">
+              <div class="project-card-2">
                 <img src={project2} height={400} />
               </div>
               <div className="container-fluid mt-4">
-                <h2 class="profile-name text-light fw-bold">
+                <h2 class=" text-light fw-bold">
                   DETA TULUNGAGUNG WEBSITE
                 </h2>
-                <div class="profile-username special-text">Landing Page</div>
+                <div class="small special-text">Landing Page</div>
 
                 <ul className="list-bullets text-light small fw-light mt-1">
                   <li className="mb-2">Build website using HTML, CSS, Javascript and Bootstrap</li>
@@ -141,15 +140,15 @@ const Resume = () => {
             </div>
 
             <div class="col-md-4 mb-5">
-              <div class="profile-card-2">
+              <div class="project-card-2">
                 <img src={project3} height={400} />
               </div>
               <div className="container-fluid mt-4">
-                <h2 class="profile-name text-light fw-bold">
+                <h2 className="text-light fw-bold">
                   HEALTH ARTICLE WEBSITE
                 </h2>
-                <div class="profile-username special-text">Backend</div>
-                <div class="stack-icons">
+                <div className="small special-text">Backend</div>
+                <div>
                   <SiExpress className="text-light" />
                   <BiLogoReact className="react-text" />
                   <BiLogoNodejs className="node-text" />
