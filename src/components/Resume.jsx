@@ -2,7 +2,7 @@ import React from "react";
 import { BiSolidGraduation } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { BiLogoNodejs, BiLogoReact } from "react-icons/bi";
+import { BiLogoNodejs, BiLogoReact, BiLogoMongodb } from "react-icons/bi";
 import project1 from "../assets/project/project1.png";
 import project2 from "../assets/project/project2.png";
 import project3 from "../assets/project/project3.png";
@@ -152,7 +152,7 @@ const Resume = () => {
                   <SiExpress className="text-light" />
                   <BiLogoReact className="react-text" />
                   <BiLogoNodejs className="node-text" />
-                  <GrMysql className="mysql-text2" />
+                  <BiLogoMongodb className="mongo-text" />
                 </div>
                 <ul className="list-bullets text-light small fw-light mt-1">
                   <li className="mb-2">Designing relationships between tables in a database (ERD)</li>
