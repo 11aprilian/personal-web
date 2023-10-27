@@ -92,7 +92,7 @@ const Resume = () => {
               <div class="project-card-2">
                 <img src={project1} height={400} />
               </div>
-              <div className="container-fluid mt-4">
+              <div className="border-start container-fluid mt-4 ps-4">
                 <h2 className=" text-light fw-bold">
                   TRAVEL RESERVATION WEBSITE
                 </h2>
@@ -123,7 +123,7 @@ const Resume = () => {
               <div class="project-card-2">
                 <img src={project2} height={400} />
               </div>
-              <div className="container-fluid mt-4">
+              <div className="border-start container-fluid mt-4 ps-4">
                 <h2 class=" text-light fw-bold">
                   DETA TULUNGAGUNG WEBSITE
                 </h2>
@@ -143,7 +143,7 @@ const Resume = () => {
               <div class="project-card-2">
                 <img src={project3} height={400} />
               </div>
-              <div className="container-fluid mt-4">
+              <div className="border-start container-fluid mt-4 ps-4">
                 <h2 className="text-light fw-bold">
                   HEALTH ARTICLE WEBSITE
                 </h2>
