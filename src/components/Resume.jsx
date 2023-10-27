@@ -14,11 +14,11 @@ const Resume = () => {
         <div className="row">
           <div className="col-md-9 offset-md-1">
             <div className="lc-block d-flex ">
-              <h1 className="fw-bold display-4 text-light border-bottom border-5">
+              <h1 className="ms-4 fw-bold display-4 text-light border-bottom border-5">
                 Education
               </h1>
             </div>
-            <h5 className="text-light fw-lighter special-text">
+            <h5 className="ms-4 text-light fw-lighter special-text">
               a little summary of my study journey
             </h5>
           </div>
@@ -76,11 +76,11 @@ const Resume = () => {
           <div className="row">
             <div className="col-md-9 offset-md-1">
               <div className="lc-block d-flex">
-                <h1 className="fw-bold display-4 text-light border-bottom border-5">
+                <h1 className="ms-4 fw-bold display-4 text-light border-bottom border-5">
                   Project
                 </h1>
               </div>
-              <h5 className="text-light fw-lighter special-text">look what I've built</h5>
+              <h5 className="ms-4 text-light fw-lighter special-text">look what I've built</h5>
             </div>
           </div>
         </div>

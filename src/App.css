@@ -228,10 +228,6 @@ body {
   transition: 0.2s;
 }
 
-.blacked{
-  background-color: #1A0323;
-}
-
 .hero {
   height: 120vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
@@ -239,7 +235,7 @@ body {
 }
 
 .under-hero {
-  margin-top: -200px;
+  margin-top: -220px;
 }
 
 .bg-contact {
@@ -365,7 +361,6 @@ a:focus {
 
 .project-card-2 {
     max-width: 400px;
-    border-radius: 4px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     background-position: center;
     overflow: hidden;
@@ -373,7 +368,7 @@ a:focus {
     margin: 10px auto;
     cursor: pointer;
     background: rgb(254,178,0);
-    background: linear-gradient(291deg, rgba(254,178,0,1) 0%, rgba(77,179,61,1) 100%);
+    background: linear-gradient(291deg, rgba(254,178,0,0.500437675070028) 0%, rgba(77,179,61,0.49763655462184875) 100%);
 }
 
 .project-card-2 img {

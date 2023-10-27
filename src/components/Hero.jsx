@@ -78,7 +78,7 @@ const Hero = () => {
     <div className="">
       <div>
         <div
-          className="d-flex container-fluid hero shadow"
+          className="d-flex container-fluid justify-content-between hero shadow"
           lc-helper="background"
         >
           <div className="m-5 p-5">
@@ -97,7 +97,8 @@ const Hero = () => {
               >
                 <span className="wrap"></span>
               </p>
-
+          </div>
+          <div>
           </div>
         </div>
       </div>
@@ -165,11 +166,11 @@ const Hero = () => {
         <div className="row">
           <div className="col-md-9 offset-md-1">
             <div className="lc-block mt-5 d-flex">
-              <h1 className="fw-bold display-4 text-light border-bottom border-5">
+              <h1 className="ms-4 fw-bold display-4 text-light border-bottom border-5">
                 Specialized Skills
               </h1>
             </div>
-            <h5 className="text-light fw-lighter special-text">I mastered programming languages ​​and some stack</h5>
+            <h5 className="ms-4 text-light fw-lighter special-text">I mastered programming languages ​​and some stack</h5>
           </div>
         </div>
       </div>
