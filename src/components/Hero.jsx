@@ -163,19 +163,20 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container bg-dark px-5 pb-5 bg-light mt-5">
+      <div className="container bg-dark pb-2 bg-light mt-1">
         <div className="row">
           <div className="col-md-9 offset-md-1">
-            <div className="lc-block mt-5 d-flex justify-content-center">
-              <h1 className="fw-bold display-4 text-light border-bottom">
+            <div className="lc-block mt-5 d-flex">
+              <h1 className="fw-bold display-4 text-light border-bottom border-5">
                 Specialized <span className="special-text">Skills</span>
               </h1>
             </div>
+            <h5 className="text-light fw-lighter">I mastered programming languages ​​and some stack</h5>
           </div>
         </div>
       </div>
 
-      <div className="container-fluid pb-4">
+      <div className="container-fluid">
         <div className="row align-middle justify-content-center">
           <div className="col-md-6 col-lg-3 column">
             <div className="card gr-1 ">       

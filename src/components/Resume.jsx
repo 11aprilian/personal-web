@@ -1,17 +1,27 @@
 import React from "react";
 import { BiSolidGraduation } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { BiLogoNodejs, BiLogoReact } from "react-icons/bi";
 import project1 from "../assets/project/project1.png";
 import project2 from "../assets/project/project2.png";
+import project3 from "../assets/project/project3.png";
 
 const Resume = () => {
   return (
     <div>
-      <div className="container bg-dark px-5 pb-5 bg-light mt-5">
+      <div className="container bg-dark pb-4 bg-light mt-5">
         <div className="row">
           <div className="col-md-9 offset-md-1">
-            <div className="lc-block d-flex justify-content-center ">
-              <h1 className="fw-bold display-4 text-light border-bottom">Education</h1>
+            <div className="lc-block d-flex ">
+              <h1 className="fw-bold display-4 text-light border-bottom border-5">
+                <span className="special-text">Educ</span>
+                ation
+              </h1>
             </div>
+            <h5 className="text-light fw-lighter">
+              a little summary of my study journey
+            </h5>
           </div>
         </div>
       </div>
@@ -62,43 +72,108 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="p-5 shadow">
-        <div className="px-5 pb-5 mt-2">
+      <div className=" shadow">
+        <div className="container bg-dark pb-4 bg-light mt-1">
           <div className="row">
             <div className="col-md-9 offset-md-1">
-              <div className="lc-block d-flex justify-content-center">
-                <h1 className="fw-bold display-4 border-bottom special-text">Project</h1>
+              <div className="lc-block d-flex">
+                <h1 className="fw-bold display-4 text-light border-bottom border-5">
+                  Pro<span className="special-text">ject</span>
+                </h1>
               </div>
+              <h5 className="text-light fw-lighter">look what I've built</h5>
             </div>
           </div>
         </div>
 
         <div className="container">
+          <div class="row">
 
-            <div className="row">
-                <div className="col-md-6 mt-5"><img src={project1} width={400} alt="" /></div>
-                <div className="col-md-6 mt-5">
-                    <small className="special-text">Fullstack</small>
-                    <h2 className="text-light">Travel Reservation Website</h2>
-                    <div className="card rounded">
-                        <ul></ul>
-                    </div>
-                    </div>
+            <div class="col-md-4 mb-5">
+              <div class="profile-card-2">
+                <img src={project1} height={400} />
+              </div>
+              <div className="container-fluid  mt-4">
+                <h2 class="profile-name text-light fw-bold">
+                  TRAVEL RESERVATION WEBSITE
+                </h2>
+                <div class="profile-username special-text">Fullstack</div>
+                <div class="stack-icons">
+                  <SiExpress className="text-light" />
+                  <BiLogoReact className="react-text" />
+                  <BiLogoNodejs className="node-text" />
+                  <GrMysql className="mysql-text2" />
+                </div>
+                <ul className="list-bullets text-light small fw-light mt-1">
+                  <li className="mb-2">Designing relationships between tables in a database (ERD)</li>
+                  <li className="mb-2">
+                  Build API using ExpressJS adn MySQL with Sequelize ORM (Backend)
+                  </li>
+                  <li className="mb-2">
+                  Build a website interface using ReactJS and several modules from NodeJS (Frontend)
+                  </li>
+                  <li className="mb-2">
+                  Build admin dashboard using ReactJS
+                  </li>
+                </ul>
+              </div>
+              <hr className="text-light"/>
             </div>
 
-            <div className="row">
-                <div className="col-md-6 mt-5"><img src={project2} width={400} alt="" /></div>
-                <div className="col-md-6 mt-5">
-                    <small className="special-text">Landing Page</small>
-                    <h2 className="text-light">Deta Tulungagung Website</h2>
-                    <div className="card rounded">
-                        <ul></ul>
-                    </div>
-                    </div>
+            <div class="col-md-4 mb-5">
+              <div class="profile-card-2">
+                <img src={project2} height={400} />
+              </div>
+              <div className="container-fluid mt-4">
+                <h2 class="profile-name text-light fw-bold">
+                  DETA TULUNGAGUNG WEBSITE
+                </h2>
+                <div class="profile-username special-text">Landing Page</div>
+
+                <ul className="list-bullets text-light small fw-light mt-1">
+                  <li className="mb-2">Build website using HTML, CSS, Javascript and Bootstrap</li>
+                  <li className="mb-2">
+                  Deploy to hosting
+                  </li>
+                </ul>
+              </div>
+              <hr className="text-light"/>
             </div>
 
+            <div class="col-md-4 mb-5">
+              <div class="profile-card-2">
+                <img src={project3} height={400} />
+              </div>
+              <div className="container-fluid mt-4">
+                <h2 class="profile-name text-light fw-bold">
+                  HEALTH ARTICLE WEBSITE
+                </h2>
+                <div class="profile-username special-text">Backend</div>
+                <div class="stack-icons">
+                  <SiExpress className="text-light" />
+                  <BiLogoReact className="react-text" />
+                  <BiLogoNodejs className="node-text" />
+                  <GrMysql className="mysql-text2" />
+                </div>
+                <ul className="list-bullets text-light small fw-light mt-1">
+                  <li className="mb-2">Designing relationships between tables in a database (ERD)</li>
+                  <li className="mb-2">
+                  Create API specification
+                  </li>
+                  <li className="mb-2">
+                  Worked with the backend team to build a REST API web server using ExpressJS and MongoDB
+                  </li>
+                  <li className="mb-2">
+                  Collaborate with the Frontend team
+                  </li>
+                  Deploy web server to deployment site
+                </ul>
+              </div>
+              <hr className="text-light"/>
+            </div>
+          </div>
+          <hr className="text-light"/>
         </div>
-        
       </div>
     </div>
   );

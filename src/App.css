@@ -282,7 +282,6 @@ body {
 }
 .card {
   background: rgba(255, 255, 255, 0.11);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.8px);
   -webkit-backdrop-filter: blur(11.8px);
   min-height: 100px;
@@ -292,8 +291,6 @@ body {
   border-radius: 0;
   color: rgba(0, 0, 0, 1);
   letter-spacing: 0.05rem;
-  font-family: "Oswald", sans-serif;
-  box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
   .txt {
     margin-left: -3rem;
     z-index: 1;
@@ -335,5 +332,89 @@ body {
 
 a:hover {
   color: #c1c1c1;
+}
+
+/* project */
+/*****************
+    - Header -
+*****************/
+
+
+/* Logo */
+
+
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+}
+
+.card-container {
+    padding: 100px 0px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.profile-card-2 {
+    max-width: 400px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .stack-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+
+.profile-card-2 img {
+  filter: brightness(40%) blur(1px) ;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2:hover img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
 }
 
