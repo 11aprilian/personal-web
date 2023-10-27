@@ -1,8 +1,16 @@
 import React from "react";
-import { BiSolidGraduation } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { BiLogoNodejs, BiLogoReact, BiLogoMongodb } from "react-icons/bi";
+import {
+  BiSolidGraduation,
+  BiLogoNodejs,
+  BiLogoReact,
+  BiLogoMongodb,
+  BiLogoCss3,
+  BiLogoJavascript,
+  BiLogoBootstrap,
+} from "react-icons/bi";
+import { AiOutlineHtml5 } from "react-icons/ai";
 import project1 from "../assets/project/project1.png";
 import project2 from "../assets/project/project2.png";
 import project3 from "../assets/project/project3.png";
@@ -80,14 +88,15 @@ const Resume = () => {
                   Project
                 </h1>
               </div>
-              <h5 className="ms-4 text-light fw-lighter special-text">look what I've built</h5>
+              <h5 className="ms-4 text-light fw-lighter special-text">
+                look what I've built
+              </h5>
             </div>
           </div>
         </div>
 
-        <div className="container">
+        <div className="container ">
           <div class="row">
-
             <div class="col-md-4 mb-5">
               <div class="project-card-2">
                 <img src={project1} height={400} />
@@ -104,19 +113,28 @@ const Resume = () => {
                   <GrMysql className="mysql-text2" />
                 </div>
                 <ul className="list-bullets text-light small fw-light mt-1">
-                  <li className="mb-2">Designing relationships between tables in a database (ERD)</li>
                   <li className="mb-2">
-                  Build API using ExpressJS and <span className="mysql-text1">My</span><span className="mysql-text2">SQL</span>  with Sequelize ORM (Backend)
+                    Designing relationships between tables in a database (ERD)
                   </li>
                   <li className="mb-2">
-                  Build a website interface using <span className="react-text">ReactJS</span> and several modules from <span className="node-text">NodeJS</span>  (Frontend)
+                    Build API using ExpressJS and{" "}
+                    <span className="mysql-text1">My</span>
+                    <span className="mysql-text2">SQL</span> with Sequelize ORM
+                    (Backend)
                   </li>
                   <li className="mb-2">
-                  Build admin dashboard using <span className="react-text">ReactJS</span>
+                    Build a website interface using{" "}
+                    <span className="react-text">ReactJS</span> and several
+                    modules from <span className="node-text">NodeJS</span>{" "}
+                    (Frontend)
+                  </li>
+                  <li className="mb-2">
+                    Build admin dashboard using{" "}
+                    <span className="react-text">ReactJS</span>
                   </li>
                 </ul>
               </div>
-              <hr className="text-light"/>
+              <hr className="text-light" />
             </div>
 
             <div class="col-md-4 mb-5">
@@ -124,19 +142,25 @@ const Resume = () => {
                 <img src={project2} height={400} />
               </div>
               <div className="border-start container-fluid mt-4 ps-4">
-                <h2 class=" text-light fw-bold">
-                  DETA TULUNGAGUNG WEBSITE
-                </h2>
+                <h2 class=" text-light fw-bold">DETA TULUNGAGUNG WEBSITE</h2>
                 <div class="small special-text">Landing Page</div>
-
+                <div>
+                  <AiOutlineHtml5 className="html-text" />
+                  <BiLogoCss3 className="css-text" />
+                  <BiLogoJavascript className="js-text" />
+                  <BiLogoBootstrap className="bs-text" />
+                </div>
                 <ul className="list-bullets text-light small fw-light mt-1">
-                  <li className="mb-2">Build website using HTML, CSS, Javascript and Bootstrap</li>
                   <li className="mb-2">
-                  Deploy to hosting
+                    Build website using <span className="html-text">HTML</span>{" "}
+                    , <span className="css-text">CSS</span> ,{" "}
+                    <span className="js-text">Javascript</span> and{" "}
+                    <span className="bs-text">Bootstrap</span>
                   </li>
+                  <li className="mb-2">Deploy to hosting</li>
                 </ul>
               </div>
-              <hr className="text-light"/>
+              <hr className="text-light" />
             </div>
 
             <div class="col-md-4 mb-5">
@@ -144,9 +168,7 @@ const Resume = () => {
                 <img src={project3} height={400} />
               </div>
               <div className="border-start container-fluid mt-4 ps-4">
-                <h2 className="text-light fw-bold">
-                  HEALTH ARTICLE WEBSITE
-                </h2>
+                <h2 className="text-light fw-bold">HEALTH ARTICLE WEBSITE</h2>
                 <div className="small special-text">Backend</div>
                 <div>
                   <SiExpress className="text-light" />
@@ -155,23 +177,23 @@ const Resume = () => {
                   <BiLogoMongodb className="mongo-text" />
                 </div>
                 <ul className="list-bullets text-light small fw-light mt-1">
-                  <li className="mb-2">Designing relationships between tables in a database (ERD)</li>
                   <li className="mb-2">
-                  Create API specification
+                    Designing relationships between tables in a database (ERD)
                   </li>
+                  <li className="mb-2">Create API specification</li>
                   <li className="mb-2">
-                  Worked with the backend team to build a REST API web server using ExpressJS and <span className="mongo-text">MongoDB</span> 
+                    Worked with the backend team to build a REST API web server
+                    using ExpressJS and{" "}
+                    <span className="mongo-text">MongoDB</span>
                   </li>
-                  <li className="mb-2">
-                  Collaborate with the Frontend team
-                  </li>
+                  <li className="mb-2">Collaborate with the Frontend team</li>
                   Deploy web server to deployment site
                 </ul>
               </div>
-              <hr className="text-light"/>
+              <hr className="text-light" />
             </div>
           </div>
-          <hr className="text-light"/>
+          <hr className="text-light" />
         </div>
       </div>
     </div>

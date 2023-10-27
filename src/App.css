@@ -336,6 +336,18 @@ body {
 .mongo-text {
   color: #4db33d;
 }
+.html-text {
+  color: #e34c26;
+}
+.css-text {
+  color: #2965f1;
+}
+.js-text {
+  color: #F0DB4F;
+}
+.bs-text {
+  color: #8d5fd1;
+}
 
 .mongo-bg {
   background-color: #4db33d;

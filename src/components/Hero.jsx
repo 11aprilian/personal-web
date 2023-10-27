@@ -115,7 +115,7 @@ const Hero = () => {
           <div className="col-md-8">
             <div className="lc-block ">
               <div>
-                <p className="display-4 ms-3 text-light">
+                <p className="display-4 ms-3 text-light responsive-hide">
                   Think different and create a wonderful kind of digital things!
                 </p>
               </div>
