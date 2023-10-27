@@ -106,13 +106,13 @@ const Resume = () => {
                 <ul className="list-bullets text-light small fw-light mt-1">
                   <li className="mb-2">Designing relationships between tables in a database (ERD)</li>
                   <li className="mb-2">
-                  Build API using ExpressJS adn MySQL with Sequelize ORM (Backend)
+                  Build API using ExpressJS and <span className="mysql-text1">My</span><span className="mysql-text2">SQL</span>  with Sequelize ORM (Backend)
                   </li>
                   <li className="mb-2">
-                  Build a website interface using ReactJS and several modules from NodeJS (Frontend)
+                  Build a website interface using <span className="react-text">ReactJS</span> and several modules from <span className="node-text">NodeJS</span>  (Frontend)
                   </li>
                   <li className="mb-2">
-                  Build admin dashboard using ReactJS
+                  Build admin dashboard using <span className="react-text">ReactJS</span>
                   </li>
                 </ul>
               </div>
@@ -160,7 +160,7 @@ const Resume = () => {
                   Create API specification
                   </li>
                   <li className="mb-2">
-                  Worked with the backend team to build a REST API web server using ExpressJS and MongoDB
+                  Worked with the backend team to build a REST API web server using ExpressJS and <span className="mongo-text">MongoDB</span> 
                   </li>
                   <li className="mb-2">
                   Collaborate with the Frontend team
