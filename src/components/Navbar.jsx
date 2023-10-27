@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-sm bg-blur fixed-top navbar-dark pt-1">
+      <nav className="navbar navbar-expand-sm bg-blur shadow-lg fixed-top navbar-dark pt-1">
         <div className="container-fluid ">
           <a className="navbar-brand m-2 ms-4" href="#">
             <img src={logo} alt="" className="r" height={58} />
