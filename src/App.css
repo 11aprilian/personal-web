@@ -359,7 +359,7 @@ a:hover {
 
 .navbar-bg{
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url("/src/assets/hero.jpg") center / cover no-repeat;
+    url("/src/assets/nav.jpg") center / cover no-repeat;
 }
 
 /* project */
