@@ -6,6 +6,8 @@ import {
   AiOutlineProfile,
   AiOutlinePhone,
 } from "react-icons/ai";
+
+import {BsThreeDotsVertical} from "react-icons/bs";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
@@ -18,7 +20,7 @@ const Navbar = () => {
             <img src={logo} alt="" className="r" height={58} />
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
