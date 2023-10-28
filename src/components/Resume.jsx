@@ -187,7 +187,7 @@ const Resume = () => {
                     <span className="mongo-text">MongoDB</span>
                   </li>
                   <li className="mb-2">Collaborate with the Frontend team</li>
-                  Deploy web server to deployment site
+                  <li className="mb-2">Deploy web server to deployment site</li>               
                 </ul>
               </div>
               <hr className="text-light" />
