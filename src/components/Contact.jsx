@@ -86,8 +86,8 @@ const Hero = () => {
 
               <div>
               <ul className="list-bullets">
-              <li className="mb-2 special-text list-unstyled"><BiMailSend size={36}/>  <a className="text-decoration-none special-text" href="mailto:ihzaaprilian@gmail.com"> ihzaaprilian@gmail.com</a></li>
-              <li className="mb-2 special-text list-unstyled"><BiLogoWhatsapp size={36}/><a className="text-decoration-none special-text" href="https://wa.me/+6281238280572"> +62 8123 8280 572</a></li>
+              <li className="mb-2 special-text list-unstyled"><BiMailSend size={30}/>  <a className="text-decoration-none special-text" href="mailto:ihzaaprilian@gmail.com"> ihzaaprilian@gmail.com</a></li>
+              <li className="mb-2 special-text list-unstyled"><BiLogoWhatsapp size={30}/><a className="text-decoration-none special-text" href="https://wa.me/+6281238280572"> +62 8123 8280 572</a></li>
             </ul>
               </div>
             </div>
