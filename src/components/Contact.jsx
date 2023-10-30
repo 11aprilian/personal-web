@@ -102,7 +102,7 @@ const Hero = () => {
           </div>
         </div>
 
-    <div data-aos="fade-up">
+    <div>
         <div className="d-flex justify-content-center" >
             <div><a className="navbar-brand m-2 ms-4" href="/">
             <img src={logo} alt="" className="r" height={58} />
