@@ -72,7 +72,7 @@ const Hero = () => {
       <div className="container-fluid p-5 bg-contact ">
         <div className="row">
           
-          <div className="col-md-6" data-aos="fade-right">
+          <div className="col-md-6" data-aos="fade-down">
             <div className="lc-block ">
               <div>
                 <p className="display-3 text-light ms-3 mt-5">
@@ -93,7 +93,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="col-md-6 text-center align-self-center" data-aos="fade-left">
+          <div className="col-md-6 text-center align-self-center" data-aos="fade-down">
             <div className="lc-block border-2 ">
               <div className="mb-4">
                 <img src={profile} width={400}  className="border-bottom" alt="" />
@@ -112,7 +112,7 @@ const Hero = () => {
             <GiCentaurHeart size={35} className="react-text"/>
             </div>  
         </div>
-        <div className="d-flex justify-content-center mt-3" data-aos="fade-up" data-aos-duration="1000">
+        <div className="d-flex justify-content-center mt-3" data-aos="fade-up" data-aos-duration="900">
             <small className="text-light">Copyright © 2023. Aprilian Ihza Abin Nizar</small>
         </div>
       </div>

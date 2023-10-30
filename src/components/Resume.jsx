@@ -36,7 +36,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="px-5 py-3 wow fadeInUp text-light container-fluid" data-aos="fade-up">
+      <div className="px-5 py-3 wow fadeInUp text-light container-fluid" data-aos="fade-down">
         <div className="border-start border-2 ps-5">
           <div className="position-relative mb-4">
             <h5 className="mb-1">UNIVERSITAS MERDEKA MADIUN</h5>
@@ -100,7 +100,7 @@ const Resume = () => {
 
         <div className="container ">
           <div class="row">
-            <div class="col-md-4 mb-5" data-aos="fade-right">
+            <div class="col-md-4 mb-5" data-aos="fade-up" data-aos-duration="1000">
               <div class="project-card-2">
                 <img src={project1} height={400} />
               </div>
@@ -166,7 +166,7 @@ const Resume = () => {
               <hr className="text-light" />
             </div>
 
-            <div class="col-md-4 mb-5" data-aos="fade-left">
+            <div class="col-md-4 mb-5" data-aos="fade-up" data-aos-duration="1000">
               <div class="project-card-2">
                 <img src={project3} height={400} />
               </div>
