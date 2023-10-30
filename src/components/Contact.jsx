@@ -102,8 +102,8 @@ const Hero = () => {
           </div>
         </div>
 
-
-        <div className="d-flex justify-content-center" data-aos="fade-up">
+    <div data-aos="fade-up">
+        <div className="d-flex justify-content-center" >
             <div><a className="navbar-brand m-2 ms-4" href="/">
             <img src={logo} alt="" className="r" height={58} />
           </a></div>
@@ -112,8 +112,9 @@ const Hero = () => {
             <GiCentaurHeart size={35} className="react-text"/>
             </div>  
         </div>
-        <div className="d-flex justify-content-center mt-3" data-aos="fade-up" data-aos-duration="900">
+        <div className="d-flex justify-content-center mt-3" >
             <small className="text-light">Copyright © 2023. Aprilian Ihza Abin Nizar</small>
+        </div>
         </div>
       </div>
     </div>
