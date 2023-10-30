@@ -14,8 +14,11 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import project1 from "../assets/project/project1.png";
 import project2 from "../assets/project/project2.png";
 import project3 from "../assets/project/project3.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Resume = () => {
+  AOS.init();
   return (
     <div>
       <div className="container bg-dark pb-4 bg-light mt-5">
@@ -33,7 +36,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="px-5 py-3 wow fadeInUp text-light container-fluid">
+      <div className="px-5 py-3 wow fadeInUp text-light container-fluid" data-aos="fade-up">
         <div className="border-start border-2 ps-5">
           <div className="position-relative mb-4">
             <h5 className="mb-1">UNIVERSITAS MERDEKA MADIUN</h5>
@@ -97,7 +100,7 @@ const Resume = () => {
 
         <div className="container ">
           <div class="row">
-            <div class="col-md-4 mb-5">
+            <div class="col-md-4 mb-5" data-aos="fade-right">
               <div class="project-card-2">
                 <img src={project1} height={400} />
               </div>
@@ -137,7 +140,7 @@ const Resume = () => {
               <hr className="text-light" />
             </div>
 
-            <div class="col-md-4 mb-5">
+            <div class="col-md-4 mb-5" data-aos="fade-up">
               <div class="project-card-2">
                 <img src={project2} height={400} />
               </div>
@@ -163,7 +166,7 @@ const Resume = () => {
               <hr className="text-light" />
             </div>
 
-            <div class="col-md-4 mb-5">
+            <div class="col-md-4 mb-5" data-aos="fade-left">
               <div class="project-card-2">
                 <img src={project3} height={400} />
               </div>

@@ -4,8 +4,11 @@ import logo from "../assets/logo.png";
 import { BiLogoReact, BiLogoWhatsapp, BiMailSend } from "react-icons/bi";
 import {  GiCentaurHeart } from "react-icons/gi";
 import { AiOutlineMail, } from "react-icons/ai";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+  AOS.init();
   var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -69,7 +72,7 @@ const Hero = () => {
       <div className="container-fluid p-5 bg-contact ">
         <div className="row">
           
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-right">
             <div className="lc-block ">
               <div>
                 <p className="display-3 text-light ms-3 mt-5">
@@ -90,7 +93,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="col-md-6 text-center align-self-center">
+          <div className="col-md-6 text-center align-self-center" data-aos="fade-left">
             <div className="lc-block border-2 ">
               <div className="mb-4">
                 <img src={profile} width={400}  className="border-bottom" alt="" />
@@ -99,16 +102,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="">
-          <div className="col-md-9 offset-md-1">
-            <div className="lc-block mt-4">
-              <div editable="rich">
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="d-flex justify-content-center">
+
+        <div className="d-flex justify-content-center" data-aos="fade-up">
             <div><a className="navbar-brand m-2 ms-4" href="/">
             <img src={logo} alt="" className="r" height={58} />
           </a></div>
@@ -117,7 +112,7 @@ const Hero = () => {
             <GiCentaurHeart size={35} className="react-text"/>
             </div>  
         </div>
-        <div className="d-flex justify-content-center mt-3">
+        <div className="d-flex justify-content-center mt-3" data-aos="fade-up" data-aos-duration="1000">
             <small className="text-light">Copyright © 2023. Aprilian Ihza Abin Nizar</small>
         </div>
       </div>

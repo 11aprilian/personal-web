@@ -17,7 +17,7 @@ function App() {
           <Element name="about"> 
             <Hero/>
           </Element>
-          <Element name="resume"> 
+          <Element name="resume" > 
             <Resume />
           </Element>
           <Element name="contact"> 

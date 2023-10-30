@@ -14,8 +14,11 @@ import {
 } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+  AOS.init();
   var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -103,7 +106,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container p-5 gradient-custom under-hero shadow">
+      <div className="container p-5 gradient-custom under-hero shadow" data-aos="fade-up">
         <div className="row">
           <div className="col-md-4 text-center align-self-center">
             <div className="lc-block border-end border-2 ">
@@ -175,7 +178,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="container-fluid" data-aos="fade-up">
         <div className="row align-middle justify-content-center">
           <div className="col-md-6 col-lg-3 column">
             <div className="card gr-1 ">       
