@@ -36,7 +36,7 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="px-5 py-3 wow fadeInUp text-light container-fluid" data-aos="fade-down">
+      <div className="px-5 py-3 wow fadeInUp text-light container-fluid" data-aos="fade-up">
         <div className="border-start border-2 ps-5">
           <div className="position-relative mb-4">
             <h5 className="mb-1">UNIVERSITAS MERDEKA MADIUN</h5>
