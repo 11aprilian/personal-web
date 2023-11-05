@@ -96,7 +96,7 @@ const Hero = () => {
           <div className="col-md-6 text-center align-self-center" data-aos="fade-down">
             <div className="lc-block border-2 ">
               <div className="mb-4">
-                <img src={profile} width={400}  className="border-bottom" alt="" />
+                <img src={profile} width={400}  className="border-bottom responsive-hide" alt="" />
               </div>
             </div>
           </div>
