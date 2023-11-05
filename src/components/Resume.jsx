@@ -186,7 +186,7 @@ const Resume = () => {
                   <li className="mb-2">
                     Worked with the backend team to build a REST API web server
                     using ExpressJS and{" "}
-                    <span className="mongo-text">MongoDB</span>
+                    <span className="mongo-text">MongoDB </span>with Mongoose ORM
                   </li>
                   <li className="mb-2">Collaborate with the Frontend team</li>
                   <li className="mb-2">Deploy web server to deployment site</li>               
