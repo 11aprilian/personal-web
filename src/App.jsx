@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-dark">
+      <div className="bg-ori">
         <Navbar />
         <div className="pt-4 navbar-bg pb-5">jk</div>
           <Element name="about"> 

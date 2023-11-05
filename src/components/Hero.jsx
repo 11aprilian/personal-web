@@ -165,7 +165,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container bg-dark pb-2 bg-light mt-1">
+      <div className="container pb-2 mt-1">
         <div className="row">
           <div className="col-md-9 offset-md-1">
             <div className="lc-block mt-5 d-flex">

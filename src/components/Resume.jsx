@@ -21,7 +21,7 @@ const Resume = () => {
   AOS.init();
   return (
     <div>
-      <div className="container bg-dark pb-4 bg-light mt-5">
+      <div className="container pb-4 mt-5">
         <div className="row">
           <div className="col-md-9 offset-md-1">
             <div className="lc-block d-flex ">
@@ -83,7 +83,7 @@ const Resume = () => {
       </div>
 
       <div className=" shadow">
-        <div className="container bg-dark pb-4 bg-light mt-1">
+        <div className="container pb-4 mt-1">
           <div className="row">
             <div className="col-md-9 offset-md-1">
               <div className="lc-block d-flex">
