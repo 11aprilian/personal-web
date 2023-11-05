@@ -175,9 +175,8 @@ const Resume = () => {
                 <div className="small special-text">Backend</div>
                 <div>
                   <SiExpress className="text-light" />
-                  <BiLogoReact className="react-text" />
-                  <BiLogoNodejs className="node-text" />
                   <BiLogoMongodb className="mongo-text" />
+                  <BiLogoNodejs className="node-text" />
                 </div>
                 <ul className="list-bullets text-light small fw-light mt-1">
                   <li className="mb-2">
