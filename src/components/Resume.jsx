@@ -47,7 +47,7 @@ const Resume = () => {
             <ul className="list-bullets">
               <li className="mb-2">Learn about advanced programming</li>
               <li className="mb-2">
-                Learn MERN Stack at MSIB Kampus Merdeka SKilvul Backend
+                Learn MERN Stack at MSIB Kampus Merdeka Skilvul Backend
                 Developer
               </li>
               <li className="mb-2">

@@ -428,3 +428,13 @@ a:focus {
   background: linear-gradient(90deg, rgba(56,47,26,1) 0%, rgba(32,32,32,1) 50%, rgba(32,43,31,1) 100%);
 }
 
+.float{
+	position:fixed;
+	bottom:40px;
+	right:10px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+  writing-mode: vertical-lr;
+}
+

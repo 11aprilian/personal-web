@@ -12,6 +12,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="bg-ori">
+        {/* <div className="float"> 
+        <small className="text-light">ihzaaprilian@gmail.com</small>
+        </div> */}
         <Navbar />
         <div className="pt-4 navbar-bg pb-5">jk</div>
           <Element name="about"> 

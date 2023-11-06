@@ -144,6 +144,7 @@ const Hero = () => {
                     <button className="btn text-light px-3 shadow t-shadow"><AiFillFilePdf className="mb-1"/><small> Download CV</small></button>
                   </li>
                 </ul>
+
               </div>
             </div>
           </div>
