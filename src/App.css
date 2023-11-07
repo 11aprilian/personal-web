@@ -43,6 +43,8 @@
 
 body {
   font-family: 'Reem Kufi', sans-serif;
+  background: rgb(56,47,26);
+  background: linear-gradient(90deg, rgba(56,47,26,1) 0%, rgba(32,32,32,1) 50%, rgba(32,43,31,1) 100%);
 }
 
 .slideIn {

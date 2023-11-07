@@ -16,6 +16,7 @@ import { SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ParticleBg from "./ParticleBg";
 
 const Hero = () => {
   AOS.init();
@@ -79,7 +80,9 @@ const Hero = () => {
 
   return (
     <div className="">
+
       <div>
+      <ParticleBg/>      
         <div
           className="d-flex container-fluid justify-content-between hero shadow"
           lc-helper="background"
