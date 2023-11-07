@@ -296,8 +296,8 @@ body {
 }
 .card {
   background: rgba(255, 255, 255, 0.11);
-  backdrop-filter: blur(11.8px);
-  -webkit-backdrop-filter: blur(11.8px);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
   min-height: 100px;
   margin: 0;
   padding: 1.7rem 1.2rem;
