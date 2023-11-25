@@ -84,7 +84,7 @@ const Hero = () => {
       <div>
       <ParticleBg/>      
         <div
-          className="d-flex container-fluid justify-content-between hero shadow"
+          className="d-flex container-fluid justify-content-center hero shadow"
           lc-helper="background"
         >
           <div className="m-5 p-5">
@@ -144,7 +144,7 @@ const Hero = () => {
                     </a>
                   </li>
                   <li className="list-group-item bg-transparent border-0">
-                    <button className="btn text-light px-3 shadow t-shadow"><AiFillFilePdf className="mb-1"/><small> Download CV</small></button>
+                    <button className="btn text-light px-3 shadow t-shadow border-0"><AiFillFilePdf className="mb-1"/><small> Download CV</small></button>
                   </li>
                 </ul>
 

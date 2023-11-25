@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <BrowserRouter>
-      <div className="">
+      <div>
         {/* <div className="float"> 
         <small className="text-light">ihzaaprilian@gmail.com</small>
         </div> */}
