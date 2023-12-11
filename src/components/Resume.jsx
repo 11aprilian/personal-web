@@ -11,11 +11,15 @@ import {
   BiLogoBootstrap,
 } from "react-icons/bi";
 import { AiOutlineHtml5 } from "react-icons/ai";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import project1 from "../assets/project/project1.png";
 import project2 from "../assets/project/project2.png";
 import project3 from "../assets/project/project3.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import project4_1 from "../assets/project/project4_1.png";
+import project4_2 from "../assets/project/project4_2.png";
+import project4_3 from "../assets/project/project4_3.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Resume = () => {
   AOS.init();
@@ -36,7 +40,11 @@ const Resume = () => {
         </div>
       </div>
 
-      <div className="px-5 py-3 wow fadeInUp text-light container-fluid" data-aos="fade-up" data-aos-duration="500">
+      <div
+        className="px-5 py-3 wow fadeInUp text-light container-fluid"
+        data-aos="fade-up"
+        data-aos-duration="500"
+      >
         <div className="border-start border-2 ps-5">
           <div className="position-relative mb-4">
             <h5 className="mb-1">UNIVERSITAS MERDEKA MADIUN</h5>
@@ -100,7 +108,11 @@ const Resume = () => {
 
         <div className="container ">
           <div class="row">
-            <div class="col-md-4 mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="col-md-4 mb-5"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div class="project-card-2">
                 <img src={project1} height={400} />
               </div>
@@ -166,7 +178,11 @@ const Resume = () => {
               <hr className="text-light" />
             </div>
 
-            <div class="col-md-4 mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="col-md-4 mb-5"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div class="project-card-2">
                 <img src={project3} height={400} />
               </div>
@@ -186,10 +202,47 @@ const Resume = () => {
                   <li className="mb-2">
                     Worked with the backend team to build a REST API web server
                     using ExpressJS and{" "}
-                    <span className="mongo-text">MongoDB </span>with Mongoose ORM
+                    <span className="mongo-text">MongoDB </span>with Mongoose
+                    ORM
                   </li>
                   <li className="mb-2">Collaborate with the Frontend team</li>
-                  <li className="mb-2">Deploy web server to deployment site</li>               
+                  <li className="mb-2">Deploy web server to deployment site</li>
+                </ul>
+              </div>
+              <hr className="text-light" />
+            </div>
+
+            <div
+              class="col-md-12 mb-5"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div className="d-flex justify-content-between">
+                <div class="project-card-2">
+                  <img src={project4_1} height={400} />
+                </div>
+                <div class="project-card-2">
+                  <img src={project4_2} height={400} />
+                </div>
+                <div class="project-card-2">
+                  <img src={project4_3} height={400} />
+                </div>
+              </div>
+              <div className="border-start container-fluid mt-4 ps-4">
+                <h2 className="text-light fw-bold">HYDRA CORP WEBSITE</h2>
+                <div className="small special-text">Frontend</div>
+                <div>
+                  <SiNextdotjs className="text-light" />
+                  <SiTailwindcss className="react-text" />
+                </div>
+                <ul className="list-bullets text-light small fw-light mt-1">
+                  <li className="mb-2">Designing Website User Interface</li>
+                  <li className="mb-2">
+                    Build website using NextJS and{" "}
+                    <span className="react-text">TailwindCSS</span>
+                  </li>
+                  <li className="mb-2">You can visit it through 
+                  <span><a href="https://hydracorp.netlify.app" className="text-decoration-none special-text"> here</a></span></li>
                 </ul>
               </div>
               <hr className="text-light" />
