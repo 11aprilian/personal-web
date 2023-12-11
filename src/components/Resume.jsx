@@ -173,6 +173,18 @@ const Resume = () => {
                     <span className="bs-text">Bootstrap</span>
                   </li>
                   <li className="mb-2">Deploy to hosting</li>
+                  <li className="mb-2">
+                    You can visit it through
+                    <span>
+                      <a
+                        href="https://detatulungagung.com"
+                        className="text-decoration-none special-text"
+                      >
+                        {" "}
+                        here
+                      </a>
+                    </span>
+                  </li>
                 </ul>
               </div>
               <hr className="text-light" />
@@ -241,8 +253,18 @@ const Resume = () => {
                     Build website using NextJS and{" "}
                     <span className="react-text">TailwindCSS</span>
                   </li>
-                  <li className="mb-2">You can visit it through 
-                  <span><a href="https://hydracorp.netlify.app" className="text-decoration-none special-text"> here</a></span></li>
+                  <li className="mb-2">
+                    You can visit it through
+                    <span>
+                      <a
+                        href="https://hydracorp.netlify.app"
+                        className="text-decoration-none special-text"
+                      >
+                        {" "}
+                        here
+                      </a>
+                    </span>
+                  </li>
                 </ul>
               </div>
               <hr className="text-light" />
